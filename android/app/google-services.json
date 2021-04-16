@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988818969810",
+    "project_id": "easy-english-df5a6",
+    "storage_bucket": "easy-english-df5a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988818969810:android:43f49caa1e593fee2e890b",
+        "android_client_info": {
+          "package_name": "om.example.easy_english"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988818969810-k7cq599erbp62083g4dr10rtpu551qdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCreXUihStPnY3l2J81hc5e6-hmeZpd2qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988818969810-k7cq599erbp62083g4dr10rtpu551qdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
