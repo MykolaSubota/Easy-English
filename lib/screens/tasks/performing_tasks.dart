@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:engapp/models/question_model.dart';
-import 'package:engapp/screens/tasks/result.dart';
-import 'package:engapp/screens/widgets/performing_tasks_widgets.dart';
-import 'package:engapp/services/database.dart';
+import 'package:easy_english/models/question_model.dart';
+import 'package:easy_english/screens/tasks/result.dart';
+import 'package:easy_english/screens/widgets/performing_tasks_widgets.dart';
+import 'package:easy_english/services/database.dart';
 import "package:flutter/material.dart";
 class PerformingTasks extends StatefulWidget{
 
