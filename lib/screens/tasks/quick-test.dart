@@ -1,6 +1,6 @@
-import 'package:engapp/screens/tasks/test-card.dart';
+import 'package:easy_english/screens/tasks/test-card.dart';
 import 'package:flutter/material.dart';
-import 'package:engapp/models/user.dart';
+import 'package:easy_english/models/user.dart';
 import 'package:provider/provider.dart';
 
 class QuickTest extends StatefulWidget {

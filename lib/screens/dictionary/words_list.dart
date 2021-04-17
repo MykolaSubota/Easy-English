@@ -1,8 +1,8 @@
-import 'package:engapp/screens/dictionary/word_card.dart';
+import 'package:easy_english/screens/dictionary/word_card.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:provider/provider.dart';
-import 'package:engapp/models/word.dart';
+import 'package:easy_english/models/word.dart';
 
 class WordsList extends StatefulWidget {
   @override

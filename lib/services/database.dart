@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:engapp/models/word.dart';
+import 'package:easy_english/models/word.dart';
 
 class DatabaseService {
   final String uid;

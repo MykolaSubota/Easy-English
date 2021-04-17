@@ -1,4 +1,4 @@
-import 'package:engapp/screens/widgets/widgets.dart';
+import 'package:easy_english/screens/widgets/widgets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

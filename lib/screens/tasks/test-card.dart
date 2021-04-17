@@ -2,7 +2,7 @@ import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:engapp/models/user.dart';
+import 'package:easy_english/models/user.dart';
 
 class TestCard extends StatefulWidget {
   @override

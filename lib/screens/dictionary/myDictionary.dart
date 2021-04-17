@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:engapp/models/word.dart';
-import 'package:engapp/models/user.dart';
-import 'package:engapp/screens/dictionary/words_list.dart';
-import 'package:engapp/screens/tasks/quick-test.dart';
-import 'package:engapp/services/database.dart';
+import 'package:easy_english/models/word.dart';
+import 'package:easy_english/models/user.dart';
+import 'package:easy_english/screens/dictionary/words_list.dart';
+import 'package:easy_english/screens/tasks/quick-test.dart';
+import 'package:easy_english/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';

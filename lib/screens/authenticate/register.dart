@@ -1,7 +1,7 @@
-import 'package:engapp/shared/loading.dart';
+import 'package:easy_english/shared/loading.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:engapp/services/auth.dart';
+import 'package:easy_english/services/auth.dart';
 
 class Register extends StatefulWidget {
   final Function toggleView;

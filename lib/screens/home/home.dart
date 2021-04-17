@@ -1,9 +1,9 @@
-import 'package:engapp/screens/dictionary/myDictionary.dart';
-import 'package:engapp/screens/tasks/quick-test.dart';
-import 'package:engapp/screens/tasks/sections.dart';
-import 'package:engapp/services/auth.dart';
-import 'package:engapp/screens/navDrawer.dart';
-import 'package:engapp/services/database.dart';
+import 'package:easy_english/screens/dictionary/myDictionary.dart';
+import 'package:easy_english/screens/tasks/quick-test.dart';
+import 'package:easy_english/screens/tasks/sections.dart';
+import 'package:easy_english/services/auth.dart';
+import 'package:easy_english/screens/navDrawer.dart';
+import 'package:easy_english/services/database.dart';
 import 'package:flutter/material.dart';
 
 final AuthService _auth = AuthService();

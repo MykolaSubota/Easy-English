@@ -1,4 +1,4 @@
-import 'package:engapp/screens/dictionary/myDictionary.dart';
+import 'package:easy_english/screens/dictionary/myDictionary.dart';
 import 'package:flutter/material.dart';
 
 class NavDrawer extends StatelessWidget {

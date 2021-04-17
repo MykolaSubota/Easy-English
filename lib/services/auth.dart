@@ -1,5 +1,5 @@
-import 'package:engapp/models/user.dart';
-import 'package:engapp/services/database.dart';
+import 'package:easy_english/models/user.dart';
+import 'package:easy_english/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {

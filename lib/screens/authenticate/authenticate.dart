@@ -1,5 +1,5 @@
-import 'package:engapp/screens/authenticate/register.dart';
-import 'package:engapp/screens/authenticate/sign_in.dart';
+import 'package:easy_english/screens/authenticate/register.dart';
+import 'package:easy_english/screens/authenticate/sign_in.dart';
 import 'package:flutter/material.dart';
 
 class Authenticate extends StatefulWidget {

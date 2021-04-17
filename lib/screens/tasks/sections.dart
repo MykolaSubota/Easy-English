@@ -1,7 +1,7 @@
-import 'package:engapp/screens/tasks/performing_tasks.dart';
-import 'package:engapp/services/database.dart';
+import 'package:easy_english/screens/tasks/performing_tasks.dart';
+import 'package:easy_english/services/database.dart';
 import 'package:flutter/material.dart';
-import 'package:engapp/services/auth.dart';
+import 'package:easy_english/services/auth.dart';
 import '../navDrawer.dart';
 import 'create_task.dart';
 
