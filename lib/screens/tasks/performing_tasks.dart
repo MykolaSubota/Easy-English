@@ -76,7 +76,7 @@ class _PerformingTasksState extends State<PerformingTasks>{
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue[900],
+        backgroundColor: Colors.deepPurple[300],
         elevation: 0.0,
         title: Text('Task'),
         actions: [
@@ -135,7 +135,19 @@ class _PerformingTasksState extends State<PerformingTasks>{
           ));
         },
       ),
-
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.check), backgroundColor: Colors.deepPurple[300],
+        onPressed: () {
+          Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => Results(
+                    correct: _correct,
+                    incorrect: _incorrect,
+                    total: total,
+                  )));
+        },
+      ),
     );
   }
 }

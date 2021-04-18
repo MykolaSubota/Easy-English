@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
       backgroundColor: Colors.white,
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: Text('Daily English'),
+        title: Text('Easy English'),
         backgroundColor: Colors.lightBlue[900],
         elevation: 0.0,
         actions: <Widget>[
@@ -65,8 +65,9 @@ class _HomeState extends State<Home> {
                 ),
                 new  FlatButton(
 
-                  color: Colors.lightBlue[900],
-                  child: Text("My Dictionary", style: TextStyle(color: Colors.white, fontSize: 18.0),),
+                  color: Colors.deepPurple[300],
+                  child: Text("My Dictionary", style: TextStyle(color: Colors.deepPurple[200])),
+                    fontWeight: FontWeight.bold, height: 3 ,fontSize: 25.0),
                   onPressed: () {
                     Navigator.push(context,
                       MaterialPageRoute(builder: (context) => MyDictionary()),
@@ -74,8 +75,9 @@ class _HomeState extends State<Home> {
                   },
                 ),
                 new  FlatButton(
-                  color: Colors.lightBlue[900],
-                  child: Text("Quick Test", style: TextStyle(color: Colors.white, fontSize: 18.0),),
+                  color: Colors.deepPurple[200],
+                  child: Text("Quick Test", style: TextStyle(color: Colors.deepPurple[200])),
+                    fontWeight: FontWeight.bold, height: 3 ,fontSize: 25.0),
                   onPressed: () {
                     Navigator.push(context,
                       MaterialPageRoute(builder: (context) => QuickTest()),
@@ -84,7 +86,8 @@ class _HomeState extends State<Home> {
                 ),
                 new  FlatButton(
                   color: Colors.lightBlue[900],
-                  child: Text("Rubric quizzes", style: TextStyle(color: Colors.white, fontSize: 18.0),),
+                  child: Text("Rubric quizzes", style: TextStyle(color: Colors.deepPurple[200])),
+                    fontWeight: FontWeight.bold, height: 3 ,fontSize: 25.0),
                   onPressed: () {
                     Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Sections()),
