@@ -30,7 +30,7 @@ class _MyDictionaryState extends State<MyDictionary> {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.lightBlue[900],
+          backgroundColor: Colors.deepPurple[300],
           elevation: 2,
           title: Text('My Dictionary'),
         ),
@@ -44,7 +44,7 @@ class _MyDictionaryState extends State<MyDictionary> {
           children: [
             SpeedDialChild(
               child: Icon(Icons.add),
-              backgroundColor: Colors.lightBlue[900],
+              backgroundColor: Colors.Colors.deepPurple[200],
               elevation: 0.0,
               label: 'Add new word',
               labelStyle: TextStyle(

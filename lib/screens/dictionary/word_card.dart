@@ -71,7 +71,7 @@ class WordCard extends StatelessWidget {
                         FlatButton(
                           child: Text(
                             'Close',
-                            style: TextStyle(color: Colors.lightBlue[900], fontSize: 18.0),
+                            style: TextStyle(color: Colors.deepPurple[300], fontSize: 18.0),
                           ),
                           onPressed: () {Navigator.pop(context);},
                         ),

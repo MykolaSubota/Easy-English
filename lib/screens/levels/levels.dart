@@ -22,8 +22,8 @@ class _LevelsState extends State<Levels> {
         backgroundColor: Colors.white,
         drawer: NavDrawer(),
         appBar: AppBar(
-          title: Text('Daily English'),
-          backgroundColor: Colors.lightBlue[900],
+          title: Text('Easy English'),
+          backgroundColor: Colors.deepPurple[300],
           elevation: 0.0,
           actions: <Widget>[
             TextButton.icon(
@@ -49,7 +49,7 @@ class _LevelsState extends State<Levels> {
               TextButton(
                 child: Text(
                   "A1",
-                  style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                  style: TextStyle(color: Colors.deepPurple[400], fontSize: 25.0, height: 2),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -61,7 +61,7 @@ class _LevelsState extends State<Levels> {
               TextButton(
                 child: Text(
                   "A2",
-                  style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                  style: TextStyle(color: Colors.deepPurple[400], fontSize: 25.0, height: 2),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -73,7 +73,7 @@ class _LevelsState extends State<Levels> {
               TextButton(
                 child: Text(
                   "B1",
-                  style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                  style: TextStyle(color: Colors.deepPurple[400], fontSize: 25.0, height: 2),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -85,7 +85,7 @@ class _LevelsState extends State<Levels> {
               TextButton(
                 child: Text(
                   "B2",
-                  style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                  style: TextStyle(color: Colors.deepPurple[400], fontSize: 25.0, height: 2),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -97,7 +97,7 @@ class _LevelsState extends State<Levels> {
               TextButton(
                 child: Text(
                   "C1",
-                  style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                  style: TextStyle(color: Colors.deepPurple[400], fontSize: 25.0, height: 2),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -109,7 +109,7 @@ class _LevelsState extends State<Levels> {
               TextButton(
                 child: Text(
                   "C1",
-                  style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                  style: TextStyle(color: Colors.deepPurple[400], fontSize: 25.0, height: 2),
                 ),
                 onPressed: () {
                   Navigator.push(
