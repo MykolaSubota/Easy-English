@@ -4,7 +4,7 @@ Widget BlueButton({BuildContext context, String label, buttonWidth}) {
   return Container(
     padding: EdgeInsets.symmetric(vertical: 18),
     decoration: BoxDecoration(
-      color: Colors.deepPurple[300],
+      color: Colors.deepPurple[400],
   borderRadius: BorderRadius.circular(30)     
     ),
     alignment: Alignment.center,
