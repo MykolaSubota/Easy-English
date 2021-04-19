@@ -6,6 +6,8 @@ import 'package:easy_english/screens/navDrawer.dart';
 import 'package:easy_english/services/database.dart';
 import 'package:flutter/material.dart';
 
+import 'package:engapp/screens/levels/levels.dart';
+
 final AuthService _auth = AuthService();
 
 class Home extends StatefulWidget {
@@ -94,7 +96,15 @@ class _HomeState extends State<Home> {
                     );
                   },
                 ),
-
+                new  FlatButton(
+                  color: Colors.lightBlue[900],
+                  child: Text("English levels", style: TextStyle(color: Colors.white, fontSize: 18.0),),
+                  onPressed: () {
+                    Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Levels()),
+                    );
+                  },
+                ),
 
               ],
             ),
