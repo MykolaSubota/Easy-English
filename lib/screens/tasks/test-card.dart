@@ -61,13 +61,13 @@ class _TestCardState extends State<TestCard> {
     return Scaffold(
       //resizeToAvoidBottomPadding: false,
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue[900],
+        backgroundColor: Colors.deepPurple[300],
         elevation: 2,
         title: Text('Quick Test'),
         actions: <Widget>[
           FlatButton (
             color: Colors.white,
-            textColor: Colors.lightBlue[900],
+            textColor: Colors.deepPurple[300],
             child: Text('Check'),
             onPressed:() => showDialog(
               context: context,
@@ -89,7 +89,7 @@ class _TestCardState extends State<TestCard> {
 
                     child: Card(
                       shape: RoundedRectangleBorder(
-                        side: new BorderSide(color: Colors.blue, width: 2.0),
+                        side: new BorderSide(color: Colors.deepPurple[200], width: 2.0),
                         borderRadius: BorderRadius.circular(15.0),
                       ),
                       color: Colors.white,
@@ -103,8 +103,8 @@ class _TestCardState extends State<TestCard> {
                         // !!!!
                         children: <Widget>[
                           new ListTile(
-                            title: Text(snapchot.data[index].data["word"]),
-                            subtitle: Text(snapchot.data[randIndex(index)].data["translate"]),
+                            title: Text(snapchot.data[index].data["word"], style:TextStyle(fontWeight: FontWeight.bold)),
+                            subtitle: Text(snapchot.data[randIndex(index)].data["translate"], style:TextStyle(fontWeight: FontWeight.bold)),
                             onTap: () {
                               print(rightAnswers);
 
@@ -113,15 +113,15 @@ class _TestCardState extends State<TestCard> {
                           ButtonBar(
                             children: <Widget>[
                               FlatButton(
-                                textColor: Colors.red,
-                                child: Text('Wrong'),
+
+                                child: Text('Wrong',style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold)),
                                 onPressed: (){
                                   userAnswers.add(false);
                                 },
                               ),
                               FlatButton(
-                                textColor: Colors.green,
-                                child: Text('Right'),
+
+                                child: Text('Right', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold)),
                                 onPressed: () {
                                   userAnswers.add(true);
                                 },
@@ -158,7 +158,7 @@ class _TestCardState extends State<TestCard> {
       ),
       actions: <Widget>[
         FlatButton(
-          child: Text('Ok ;)'),
+          child: Text('Ok ;)', style: TextStyle(color: Colors.deepPurple[200],)),
           onPressed: () {
             Navigator.of(context).pop();
           },

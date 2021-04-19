@@ -46,7 +46,7 @@ class _CreateTaskState extends State<CreateTask> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue[900],
+        backgroundColor: Colors.deepPurple[300],
         elevation: 0.0,
         title: Text('Create Task'),
         actions: <Widget>[

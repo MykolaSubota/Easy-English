@@ -30,7 +30,7 @@ class _B1State extends State<B1> {
   Widget slider() {
     return Slider(
         value: position.inSeconds.toDouble(),
-        activeColor: Colors.blue,
+        activeColor: Colors.deepPurple[300],
         inactiveColor: Colors.grey,
         max: audioLength.inSeconds.toDouble(),
         onChanged: (value) {
@@ -68,8 +68,8 @@ class _B1State extends State<B1> {
       backgroundColor: Colors.white,
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: Text('Daily English'),
-        backgroundColor: Colors.lightBlue[900],
+        title: Text('Easy English'),
+        backgroundColor: Colors.deepPurple[300],
         elevation: 0.0,
         actions: <Widget>[
           TextButton.icon(
@@ -93,7 +93,7 @@ class _B1State extends State<B1> {
             TextButton(
               child: Text(
                 "Audio1",
-                style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                style: TextStyle(color: Colors.deepPurple[200], fontSize: 18.0),
               ),
               onPressed: () {
                 nameAudio = audioData[0];
@@ -103,7 +103,7 @@ class _B1State extends State<B1> {
             TextButton(
               child: Text(
                 "Audio2",
-                style: TextStyle(color: Colors.blue, fontSize: 18.0),
+                style: TextStyle(color: Colors.deepPurple[200], fontSize: 18.0),
               ),
               onPressed: () {
                 nameAudio = audioData[1];

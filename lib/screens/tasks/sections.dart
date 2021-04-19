@@ -62,8 +62,8 @@ class _SectionsState extends State<Sections> {
       backgroundColor: Colors.white,
       drawer: NavDrawer(),
       appBar: AppBar(
-        title: Text('Daily English'),
-        backgroundColor: Colors.lightBlue[900],
+        title: Text('Easy English'),
+        backgroundColor: Colors.deepPurple[300],
         elevation: 0.0,
         actions: <Widget>[
           FlatButton.icon(
